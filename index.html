@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmatamento - Impactos e Notícias</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .main-image {
+            height: 400px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .problem-card {
+            margin-bottom: 20px;
+        }
+        .news-card {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Desmatamento</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Principal -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="https://images.unsplash.com/photo-1615213612139-0a57d5f13b0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Desmatamento" class="img-fluid main-image rounded">
+            </div>
+            <div class="col-md-4">
+                <h2>Principais Problemas do Desmatamento</h2>
+                <div class="card problem-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Perda de Biodiversidade</h5>
+                        <p class="card-text">O desmatamento destrói habitats naturais, levando muitas espécies à extinção.</p>
+                    </div>
+                </div>
+                <div class="card problem-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mudanças Climáticas</h5>
+                        <p class="card-text">As árvores absorvem CO₂ e seu corte libera gases de efeito estufa na atmosfera.</p>
+                    </div>
+                </div>
+                <div class="card problem-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Desertificação</h5>
+                        <p class="card-text">Sem cobertura vegetal, o solo fica exposto à erosão e perde sua fertilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Notícias -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Principais Notícias</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card news-card">
+                    <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Notícia 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Aumento do desmatamento na Amazônia</h5>
+                        <p class="card-text">Dados mostram que o desmatamento na Amazônia aumentou 30% no último ano.</p>
+                        <a href="#" class="btn btn-success">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card news-card">
+                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Notícia 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Novas políticas de conservação</h5>
+                        <p class="card-text">Governo anuncia plano para reduzir desmatamento em 50% até 2030.</p>
+                        <a href="#" class="btn btn-success">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card news-card">
+                    <img src="https://images.unsplash.com/photo-1476231682828-37e571bc172f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Notícia 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Impacto nas comunidades locais</h5>
+                        <p class="card-text">Como o desmatamento está afetando as populações indígenas e tradicionais.</p>
+                        <a href="#" class="btn btn-success">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white mt-5 py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Consciência Ambiental - Todos os direitos reservados</p>
+            <p>Contato: contato@desmatamento.org.br | (11) 1234-5678</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
